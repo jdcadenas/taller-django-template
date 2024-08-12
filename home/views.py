@@ -1,7 +1,14 @@
+from django.contrib.auth.decorators import login_required
 from django.http import HttpResponse
 from django.shortcuts import render
-from django.contrib.auth.decorators import login_required
+
+
 # Create your views here.
+#editar el login del usuario
+###
+##
+
+
 @login_required(login_url="/accounts/login/")
 def index(request):
 
