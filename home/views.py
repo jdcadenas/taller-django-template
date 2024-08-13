@@ -2,7 +2,7 @@ from django.contrib.auth.decorators import login_required
 from django.http import HttpResponse
 from django.shortcuts import render
 
-# esto esta modificado por seba
+# esto esta modificado por josé
 
 
 @login_required(login_url="/accounts/login/")
